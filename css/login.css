@@ -1,0 +1,91 @@
+body {
+    background: #eee
+}
+
+.card {
+    border-radius: 12px
+}
+
+.card1 {
+    background-image: url("https://i.imgur.com/aeidEH1.jpg");
+    margin-top: 20px
+}
+
+.first {
+    background-image: url("https://image.freepik.com/free-vector/doctors-concept-illustration_114360-1515.jpg");
+    background-repeat: no-repeat;
+  
+    background-size:contain;
+    background-position: center;
+    border-radius: 12px;
+    max-width: 100%;
+    display: block;
+    height: auto
+}
+
+.login {
+    position: relative;
+    left: 25px;
+    top: 20px;
+    font-size: 19px
+}
+
+.in {
+    border-width: 10px;
+    color: black;
+    font-weight: bold
+}
+
+.second {
+    background: #fff;
+    border-radius: 12px
+}
+
+.welcome {
+    margin-top: 130px;
+    font-size: 23px;
+
+}
+
+.form-group {
+    padding-top: 8px;
+    font-size: 12px
+}
+
+.form-control {
+    background: #E3F2FD;
+    margin-top: 10px;
+    font-size: 9px;
+    font-weight: bold;
+    color: #fff;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.form-control:focus {
+    box-shadow: none
+}
+
+.forgot {
+    padding-top: 7px;
+    color: #42A5F5
+}
+
+.space {
+    padding-top: 28px
+}
+
+a:hover{
+    font-weight: bold;
+}
+
+
+@media only screen and (max-width: 800px) {
+    .login {
+        display: none
+    }
+}
+
+footer{
+    margin-top: 200px;
+}

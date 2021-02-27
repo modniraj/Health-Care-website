@@ -1,0 +1,156 @@
+footer{
+    margin-top: 200px;
+}
+a:hover{
+    font-weight: bold;
+}
+.container .row .col-md-6 {
+	margin-top: 10px;
+	font-size: 24px;
+    font-family: "Open Sans",Helvetica,Arial,sans-serif;
+    line-height: 1.75;
+    font-weight: 400;
+    color: #333;
+    text-align: center;
+}
+.container .row .col-md-6 li{
+	    list-style-type: none;
+	    font-size: 18px;
+	    text-align: left;
+}
+<style type="text/css">
+    .card-text{
+        text-align: left;
+        font-size: 15px;
+        font-family: 'Kaushan Script', cursive;
+}
+p{
+    text-align: left;
+            font-size: 15px;
+
+        }
+
+}
+
+
+body, html {
+  height: 100%;
+}
+.p-md-3  {
+  /* The image used */
+  background-image: url(https://image.freepik.com/free-photo/geometric-composition_24972-787.jpg);
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+hr{
+    border-top: 5px dashed blue;
+
+}
+
+.col-1 {
+    min-width: 88px;
+    margin: 40px 22.5px 22.5px 20px;
+}
+.im1{
+      background-color: rgb(0 215 250);
+border-radius: 100px;
+}
+.im2{
+      background-color:  rgb(255 159 169);
+border-radius: 100px;
+}
+.im3{
+      background-color: rgb(215 177 255);
+border-radius: 100px;
+}
+.im4{
+      background-color: rgb(255 100 115);
+border-radius: 100px;
+}
+.im5{
+      background-color: rgb(0 230 175);
+border-radius: 100px;
+}
+.im6{
+      background-color: rgb(255 240 75);
+border-radius: 100px;
+}
+.im7{
+      background-color: rgb(0 215 250);
+border-radius: 100px;
+}
+.im8{
+      background-color: rgb(195 130 255);
+border-radius: 100px;
+}
+
+
+
+.col-1{
+  position: relative;
+}
+
+.im1,.im2,.im3,.im4,.im5,.im6,.im7,.im8{
+  opacity: 1;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  justify-content: center;
+}
+
+.col-1:hover .im1 {
+  opacity: 0.3;
+}
+
+.col-1:hover .im2 {
+  opacity: 0.3;
+}
+.col-1:hover .im3 {
+  opacity: 0.3;
+}
+.col-1:hover .im4 {
+  opacity: 0.3;
+}
+.col-1:hover .im5 {
+  opacity: 0.3;
+}
+.col-1:hover .im6 {
+  opacity: 0.3;
+}
+.col-1:hover .im7 {
+  opacity: 0.3;
+}
+.col-1:hover .im8 {
+  opacity: 0.3;
+}
+
+
+.col-1:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  color: black;
+  font-size: 14px;
+  font-weight: bold;
+}
+</style>

@@ -1,0 +1,251 @@
+  
+footer{
+    margin-top: 200px;
+}
+
+
+
+nav ul li a:hover{color:black;
+text-decoration: underline; }
+
+.map{
+  position: relative;
+  overflow: hidden;
+  
+padding-left:10%;
+padding-top: 5%;
+background: skyblue;
+}
+.al{
+  margin-bottom:10%;
+  text-align:left;
+  color: white;
+  
+  
+}
+.al span{
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 50px;
+  display: inline-block;
+  transform: translate(-155px,0) scale(0.4);
+  animation: animate .5s forwards;
+}
+.al span:nth-of-type(2){
+  animation-delay:0.05s;
+}
+.al span:nth-of-type(3){
+  animation-delay:0.1s;
+}
+.al span:nth-of-type(4){
+  animation-delay:0.15s;
+}
+.al span:nth-of-type(5){
+  animation-delay:0.2s;
+}
+.al span:nth-of-type(6){
+  animation-delay:0.25s;
+}
+.al span:nth-of-type(7){
+  animation-delay:0.3s;
+}
+.al span:nth-of-type(8){
+  animation-delay:0.35s;
+}
+.al span:nth-of-type(9){
+  animation-delay:0.4s;
+}
+.al span:nth-of-type(10){
+  animation-delay:0.45s;
+}
+.al span:nth-of-type(11){
+  animation-delay:0.5s;
+}
+@keyframes animate{
+  40%{
+    transform:translate(50px,0) scale(.7);
+    opacity: 1;
+    color: #fff;
+  }
+  60%{
+    color:wheat;
+  }
+  80%{
+    transform:translate(0) scale(2);
+    opacity:0;
+  }
+  100%{transform:translate(0) scale(1);
+    opacity: 1;
+  }
+}
+
+.resp-iframe{
+  position: absolute;
+  top:0;
+  left:50%;
+  right:20%;
+  width:30%;
+  height: 100%;
+  border:10px;
+}
+
+.cont {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 5px 10px #0984e3;
+  overflow: hidden;
+  margin-left:35%;
+  width: 650px;
+  margin-top: 20px;
+  margin-left: 350px;
+}
+
+.cont img{
+  position: relative;
+  margin-top: 200px;
+  margin: auto;
+}
+
+.heading{
+  position:relative;
+margin-top:40px;
+  width:500px;
+  height: 50px;
+ border-bottom: 5px solid #000;
+ line-height: 45px;
+
+}
+.heading span{
+color:black;
+  font-size: 30px;
+bottom:90%;
+background: rgb(255, 203, 5);
+border-top-right-radius: 30px;
+  display: inline-block;
+  padding: 2px 20px;
+   text-transform: uppercase;  
+}
+
+
+
+
+.header {
+  border-bottom: 1px solid #f0f0f0;
+  background-color: #f7f7f7;
+  padding: 15px 200px;
+  text-align: center;
+ 
+}
+
+.
+
+.header h2 {
+  position: relative;
+  margin-left: 70px;
+}
+  
+
+.form {
+  padding: 30px 30px;
+
+}
+
+.form-control {
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 60px;
+  padding-bottom: 40px;
+  position: relative;
+
+}
+#message{
+  width:100%;
+  padding: 10px;
+  border: 2px solid #f0f0f0;
+}
+
+.form-control label {
+  margin-bottom: 20px;
+ 
+}
+
+.form-control input {
+  border: 2px solid #f0f0f0;
+  border-radius: 4px;
+  font-family: inherit;
+  font-size: 14px;
+  padding: 10px;
+  width: 100%;
+}
+
+.form-control select {
+  border: 2px solid #f0f0f0;
+  border-radius: 4px;
+  display: block;
+  font-family: inherit;
+  font-size: 14px;
+  padding: 10px;
+  width: 100%;
+}
+
+.form-control input:focus {
+  outline: 0;
+  border-color: #777;
+}
+
+.form-control.success input {
+  border-color: #2ecc71;
+}
+
+.form-control.error input {
+  border-color: #e74c3c;
+}
+
+.form-control i {
+  visibility: hidden;
+  position: absolute;
+  top: 40px;
+  right: 10px;
+}
+
+.form-control.success i.fa-check-circle {
+  color: #2ecc71;
+  visibility: visible;
+}
+
+.form-control.error i.fa-exclamation-circle {
+  color: #e74c3c;
+  visibility: visible;
+}
+
+.form-control small {
+  color: #e74c3c;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  visibility: hidden;
+}
+
+.form-control.error small {
+  color: #e74c3c;
+  visibility: visible;
+}
+
+.form button {
+  background-color:rgba(31, 58, 147, 1) ;
+  border: 2px solid rgba(129, 207, 224, 1);
+  border-radius: 4px;
+  color: #fff;
+  display: block;
+  font-family: inherit;
+  font-size: 16px;
+  padding: 10px;
+  margin-top: 20px;
+  width: 100%;
+
+}
+
+img{
+  position: relative;
+  
+}

@@ -1,0 +1,47 @@
+hr {
+  border: dotted 6px;
+  border-top: none;
+  width: 4%;
+  margin: 5% auto;
+  color: #dbdbdb;
+}
+.wrapper{
+	/* width:1170px; */
+
+	width: 100%;
+	margin: 4% auto;
+
+	background: #eee;
+}
+.sin-team{
+	width: 28%;
+	float: left;
+	margin: 15px;
+		margin-bottom: 4%;
+	box-shadow: 0 2px 20px #1B1464;
+	padding: 15px;
+	color: #000;
+	background: #fff;
+	border-radius: 15px;
+}
+.doctor{
+	margin:15px ;
+	font-size: 25px;
+}
+.sin-team img{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	float: left;
+	margin: 0 20px 0 0;
+	border: 5px solid #fff;
+}
+h2{
+	font-family: 'Lato', sans-serif;;
+
+}
+p{
+font-family: 'Lato', sans-serif;
+text-align: justify;
+line-height: 15px;
+}
